@@ -1,0 +1,17 @@
+Print
+	flameshot gui	#screenshot tool
+
+### open apps ###
+
+mod4 + v
+	code		#vs code
+
+mod4 + f
+	firefox
+
+mod4 + d
+	discord
+
+mod4 + i
+	idea
+
