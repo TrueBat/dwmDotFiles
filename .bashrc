@@ -2,7 +2,6 @@
 # ~/.bashrc
 #
 
-# If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 
@@ -15,14 +14,9 @@ alias P='sudo pacman'
 alias vup='pactl set-sink-volume 0 +5%'
 alias vdown='pactl set-sink-volume 0 -5%'
 alias cforces='code;firefox'
-alias gitbitches='/home/truebat/./gitbitches.sh'
-alias killyourself='/home/truebat/./killyourself.sh'
 alias dfix='sudo vim /etc/resolv.conf'
-alias wifi='nmcli dev wifi connect TP-LINK_343D95 password 85532212'
 alias uvicorn='python -m uvicorn main:app --reload'
-alias batata='nmcli dev wifi connect batata password bat@bat123'
 alias frfr='flutter run'
-alias cstimer='/home/truebat/scripts/./cstimer.sh'
 
 export _JAVA_AWT_WM_NONREPARENTING=1
 export PATH="$PATH:/home/truebat/development/flutter/bin"
